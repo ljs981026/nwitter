@@ -1,0 +1,123 @@
+.Auth_Component {
+    width: 400px;
+    height: 300px;
+    margin: 15% auto;
+    /* background-color: red; */
+    
+}
+
+.Auth_Component > .logo {
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 120px; 
+    height: 100px;
+    margin: 0 140px;
+    margin-bottom: 50px;
+}
+
+.AuthForm {
+    
+}
+
+.AuthForm > .AuthInput {
+    display: block;
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    outline: none;  
+}
+
+.AuthForm > .AuthInput::placeholder {
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+    color: lightslategray;
+    opacity: 1;
+}
+
+.AuthForm > .AuthInput:nth-child(2) {
+    margin-top: 10px;
+}
+
+.AuthForm > .AuthSubmit {
+    /* box-sizing:content-box; */
+    display: block;
+    width: 404px;
+    height: 35px;
+    margin-top: 10px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: white;
+    cursor: pointer;
+    /* font-style:italic; */
+    /* font-weight: bold;    */
+}
+
+.AuthForm > .AuthSubmit:hover {
+    background-color: #99ccff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+.JoinBtn {
+    display: block;
+    /* margin-bottom: 10px; */
+    background-color: white;
+    font-size: 13px;
+    width: 404px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 8px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.JoinBtn:hover {
+    background-color: #99ccff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+.AuthSocial {
+    display: flex;
+    flex-direction: row;
+    width: 404px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.AuthSocial > .AuthG {
+    width: 195px;
+    position: relative;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.AuthSocial > .AuthG:hover {
+    background-color: #99ccff;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+.AuthSocial > .AuthG > span {
+    margin-right: 10px;
+}
+
+.AuthSocial > .AuthG::after {
+    content: "";
+    position: absolute;
+    background-image: url("../img/logo.png");
+    float: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 20px;
+    bottom: 3px;
+    width: 20px;
+    height: 20px;
+}
+

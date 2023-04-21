@@ -14,9 +14,9 @@ const AuthSocial = () => {
         console.log(data);
     }
     return(
-        <div>
-            <button name="google" onClick={onSocialClick}>Continue with Google</button>
-            <button name="github" onClick={onSocialClick}>Continue with Github</button>
+        <div className='AuthSocial'>
+            <button className='AuthG' name="google" onClick={onSocialClick}><span>Continue with Google</span></button>
+            <button className='AuthG' name="github" onClick={onSocialClick}><span>Continue with Github</span></button>
         </div>
     );
 };
