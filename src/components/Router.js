@@ -4,6 +4,7 @@ import Auth from "routes/Auth";
 import Home from "routes/Home";
 import Profile from "routes/Profile";
 import Navigation from "components/Navigate";
+import "../style/Menu.css";
 // import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
 
 

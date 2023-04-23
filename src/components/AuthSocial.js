@@ -15,8 +15,8 @@ const AuthSocial = () => {
     }
     return(
         <div className='AuthSocial'>
-            <button className='AuthG' name="google" onClick={onSocialClick}><span>Continue with Google</span></button>
-            <button className='AuthG' name="github" onClick={onSocialClick}><span>Continue with Github</span></button>
+            <button className='AuthG' name="google" onClick={onSocialClick}>Continue with Google</button>
+            <button className='AuthG' name="github" onClick={onSocialClick}>Continue with Github</button>
         </div>
     );
 };

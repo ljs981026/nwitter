@@ -1,0 +1,156 @@
+.HomeForm {
+    /* background-color: red; */
+}
+
+.NweetForm {
+    width: 500px;
+    height: 40px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 5px;
+    
+    /* display: inline-block; */
+}
+
+.NweetForm > .NweetInput {
+    outline: none;
+    height: 30px;
+    border-style: none;
+    margin: 2.5px;
+    border-style: 1px solid black;
+    width: 300px;
+}
+.NweetForm > .NweetInput::placeholder {
+    color: lightslategray;
+    font-size: 10px;
+}
+
+.NweetForm > .FileBox {
+    display: inline-block;
+    position: relative;
+}
+
+.NweetForm > .FileBox > label {
+    border-radius: 3px;
+    display: inline-block;
+    position: absolute;
+    top: -13px;
+    left: 60px;
+    width: 40px;
+    height: 12.4px;
+    padding: 3px 3px;
+    color: #999;
+    font-size: 10px;
+    line-height: 12.4px;
+    text-align: center;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+}
+
+.NweetForm > .FileBox > input[type="file"] { 
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip:rect(0,0,0,0);
+    border: 0;
+  }
+
+.NweetForm > .FileBox > .NweetSubmit {
+    border-radius: 3px;
+    position: absolute;
+    display: inline-block;
+    left: 120px;
+    top: -13px;
+    padding: 3px 3px;
+    width: 50px;    
+    height: 20px;
+    color: #999;
+    font-size: 10px;
+    text-align: center;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+}
+
+.NweetForm > .FileBox > label:hover {
+    background-color: gainsboro;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+}
+
+.NweetForm > .FileBox > .NweetSubmit:hover {
+    background-color: gainsboro;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+}
+
+.NweetForm > .PreViewBox {
+    display: block;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 500px;
+    height: 120px;
+    background-color: white;
+}
+
+.NweetForm > .PreViewBox > .PreName {
+    position: absolute;
+    display: block;
+    right: 15px;
+    top: 10px;
+    font-size: 12px;
+}   
+
+.NweetForm > .PreViewBox > .UploadPic {
+    position: absolute;
+    display: block;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.NweetForm > .PreViewBox > .UploadX {
+    border-radius: 3px;
+    position: absolute;
+    display: block;
+    color: #999;
+    background-color: #fdfdfd;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    border-style: none;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 75px;
+    top: 75px;
+}
+
+.NweetForm > .PreViewBox > .NoPic {
+    position: absolute;
+    display: block;
+    background-image: url("../img/logo.png");
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.NweetForm > .PreViewBox > .PreNweet {
+    display: block;
+    width: 480px;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    text-align: right;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+    font-size: 10px;
+}
+

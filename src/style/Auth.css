@@ -16,10 +16,6 @@
     margin-bottom: 50px;
 }
 
-.AuthForm {
-    
-}
-
 .AuthForm > .AuthInput {
     display: block;
     width: 400px;
@@ -32,7 +28,7 @@
 .AuthForm > .AuthInput::placeholder {
     font-size: 12px;
     text-align: left;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: lightslategray;
     opacity: 1;
 }

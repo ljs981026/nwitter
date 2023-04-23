@@ -2,6 +2,7 @@ import { dbService } from "fbase";
 import Nweet from "components/Nweet";
 import React, { useEffect, useState } from "react";
 import NweetFactory from "components/NweetFactory";
+import "../style/Home.css" 
 
 const Home = ({userObj}) => {
     const [nweets, setNweets] = useState([]);
@@ -28,7 +29,7 @@ const Home = ({userObj}) => {
     
     
     return(
-        <div>
+        <div className="HomeForm">
             <NweetFactory userObj={userObj} />
             <div>
                 {nweets.map(nweet => 
